@@ -1,4 +1,4 @@
 Spring integration
 ==============
 
-Description here.
+Note: Lavaca uses the [LinkedIn fork of dust.js](https://github.com/linkedin/dustjs) with the [LinkedIn dust-helpers](https://github.com/linkedin/dustjs-helpers) as the default template system. However, the compiler here is built to work with the [x-dust templating library](https://github.com/dannichols/x-dust), which supports the same syntax as regular dust.js only without the LinkedIn helpers. If you wish to render templates in Spring, you can use the code from the x-dust Lavaca module to implement x-dusts templates in your Lavaca project. It also includes helpers to support translations and includes that work in a similar although not identical manner to the helpers present in Lavaca's default templating system.)
