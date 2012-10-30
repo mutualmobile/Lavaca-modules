@@ -16,7 +16,7 @@ Syntax differences from default Lavaca template system
 		// Assume that for the default language `greeting` is "Hello, {0}!"
 		// the following code will output "Hello, Susan!"
 		<h1>{#msg p0=name}greeting{/msg}</h1>
-- To include another template, use an `{#import}` tag
+- To include another template, use an `{#include}` tag
 
 		// Includes the template named 'person'
 		{#include name="person"/}
